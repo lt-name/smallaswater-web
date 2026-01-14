@@ -310,11 +310,13 @@ $(document).ready(function() {
             var currentTab = $(this).attr('href');
             $('.content .tabcontent').hide();            
             $(currentTab).show();
-            $portfolioMasonry.isotope ({
-                columnWidth: '.gallery-grid__item',
-                gutter: '.gutter-sizer',
-                isAnimated: true
-            });
+            if (typeof $portfolioMasonry !== 'undefined' && $portfolioMasonry.length) {
+                $portfolioMasonry.isotope ({
+                    columnWidth: '.gallery-grid__item',
+                    gutter: '.gutter-sizer',
+                    isAnimated: true
+                });
+            }
 			$('.js-scroll').getNiceScroll().resize()
             return false;
         });
