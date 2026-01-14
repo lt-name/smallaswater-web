@@ -408,4 +408,54 @@ select option,
   background: #1D1E24 !important;
 }
 
+/* -----------------------------------------------------------------
+    - GitHub Projects
+----------------------------------------------------------------- */
+.projects-grid .loading-placeholder {
+  color: #93959C;
+}
+
+.project-card__inner {
+  background-color: #2E2F36;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.project-card__inner:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+
+.project-card__icon {
+  color: #AEB0B8;
+}
+
+.project-card__title {
+  color: #0D86FF;
+}
+.project-card__title:hover {
+  color: #3DA2FF;
+}
+
+.project-card__desc {
+  color: #AEB0B8;
+}
+
+.project-card__meta {
+  color: #93959C;
+}
+
+.project-language {
+  color: #AEB0B8;
+}
+
+.project-card__stat svg {
+  fill: #93959C;
+}
+
+.project-card__update {
+  color: #93959C;
+}
+
+.project-error p {
+  color: #ff6b6b;
+}
+
 /*# sourceMappingURL=style-dark.css.map */
